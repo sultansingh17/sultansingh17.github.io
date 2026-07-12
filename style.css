@@ -57,10 +57,15 @@ nav{
     font-weight:bold;
 }
 
-nav ul{
-    display:flex;
-    list-style:none;
-    gap:30px;
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#FFD54F;
 }
 
 nav ul li a{
@@ -90,14 +95,31 @@ nav ul li a:hover{
     padding:120px 20px 80px;
 }
 
-.hero-content{
+.overlay{
     max-width:850px;
+    margin:auto;
+    text-align:center;
 }
 
 .hero h1{
     font-size:52px;
     margin-bottom:20px;
     line-height:1.2;
+}.hero h2{
+    font-size:38px;
+    margin-bottom:15px;
+    line-height:1.3;
+}
+
+.hero h3{
+    font-size:24px;
+    color:#FFD54F;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:30px;
 }
 
 .hero p{
